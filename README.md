@@ -2,7 +2,8 @@
 -----------------------------------------
 How to use it?
 It is necessary to download dotenv = "0.15.0" and diesel = "2.2.2" and postgres
-After that, create a postgres database and insert a link to it in .env format "DATABASE_URL=postgres://user:password@localhost/namedatabase"
+After that, create a postgres database and paste a link to it in .env
+The link must be in the format: "DATABASE_URL=postgres://user:password@localhost/namedatabase"
 -----------------------------------------
 Creating a diesel migration file
 in console write "diesel setup"
