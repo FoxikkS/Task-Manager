@@ -2,4 +2,4 @@
 /migrations
 diesel.toml
 /src/schema.rs
-
+**.idea/
